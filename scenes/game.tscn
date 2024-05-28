@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfpolwk3s44vt"]
+
+[ext_resource type="Script" path="res://scripts/Map.gd" id="1_6ovug"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Map" type="Node2D" parent="."]
+script = ExtResource("1_6ovug")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 324)
